@@ -33,7 +33,6 @@ make sure your excel file format is the same as the ExcelFile.xlsx
 ## Installation and Run
 ```bash
 git clone https://github.com/Ashraf-Sharaf/WhatsApp-Billing-Automation.git
-cd whatsapp-bulk-sender
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
