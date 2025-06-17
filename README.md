@@ -1,4 +1,4 @@
-# WhatsApp Bulk Message Sender Automation
+# WhatsApp Billing Automation
 
 ## Project Description
 This Python script automates sending personalized WhatsApp messages to multiple contacts by reading data from an Excel file. It uses Selenium WebDriver to interact with WhatsApp Web and sends custom billing messages in Arabic with Lebanese month names.
@@ -16,11 +16,25 @@ This Python script automates sending personalized WhatsApp messages to multiple 
 - WhatsApp account for QR code login  
 - Excel file with required data columns  
 
-## Installation
+## Project Structure
+├── .env.example  
+├── .env  
+├── config.py  
+├── main.py  
+├── whatsapp_sender.py  
+├── ExcelFile.xlsx  
+├── requirements.txt  
+├── README.md  
+└── .gitignore  
 
+## Excel File Format
+make sure your excel file format is the same as the ExcelFile.xlsx
+
+## Installation and Run
 ```bash
-git clone https://github.com/yourusername/whatsapp-bulk-sender.git
+git clone https://github.com/Ashraf-Sharaf/WhatsApp-Billing-Automation.git
 cd whatsapp-bulk-sender
 python -m venv venv
-source venv/bin/activate    
+source venv/bin/activate
 pip install -r requirements.txt
+python main.py
