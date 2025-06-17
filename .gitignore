@@ -1,23 +1,21 @@
 # Python
 __pycache__/
-*.py[cod]
-*.egg
-*.egg-info/
-dist/
-build/
+*.pyc
+*.pyo
+*.pyd
 
-# Environment variables
+# Environment files
 .env
+
+# Excel files if you want to exclude them from Git
+*.xlsx
 
 # Logs
 *.log
 whatsapp_message_log.txt
 
-# Virtual environments
-env/
-venv/
-.venv/
+# VSCode
+.vscode/
 
-# OS files
-.DS_Store
-Thumbs.db
+# Selenium cache or drivers (optional)
+chromedriver.exe
